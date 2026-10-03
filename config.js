@@ -67,7 +67,7 @@ Shop with confidence and trust us for quality, craftsmanship, and exceptional se
     vcard: {
         // This note will be saved with the contact on the device.
         // Customize it to include any info you want the recipient to see.
-        contactNote: "PREMA SAI JEWELLERY - Gold, Silver & Diamond Jewellery since 1961. Contact: Bimish man Shakya (Manager)",
+        contactNote: "PREMA SAI JEWELLERY - Gold, Silver & Diamond Jewellery. Contact: Soniya Pokhrel",
         addressStreet: "PREMA SAI JEWELLERY",
         addressCity: "Chitwan",
         addressState: "Bagmati",
