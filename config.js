@@ -18,9 +18,9 @@ const BUSINESS_CONFIG = {
     // --- Company Details ---
     company: {
         name: "Prema Sai Jewellery",    // Displayed in header & page title
-        tagline: "Gold made since 1961",               // Used in the page <title>
-        aboutHeading: "Prema Sai Jewellery",     // Heading for the about section
-        aboutText: `Serving our customers since 1961, our shop offers a wide selection of gold, silver, and diamond jewellery. We also accept custom orders and create jewellery based on your unique designs and preferences.
+        tagline: "Exquisite Jewellery for Every Moment",               // Used in the page <title>
+        aboutHeading: "Exquisite Jewellery for Every Moment",     // Heading for the about section
+        aboutText: `Serving our customers, our shop offers a wide selection of gold, silver, and diamond jewellery. We also accept custom orders and create jewellery based on your unique designs and preferences.
 
 Shop with confidence and trust us for quality, craftsmanship, and exceptional service.`,
     },
