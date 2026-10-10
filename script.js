@@ -104,16 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // vCARD DOWNLOAD (built from config)
     // ============================================================
     function getContactPhoto() {
-        // 1. If configured in config.js and valid, use it
-        if (cfg.vcard && cfg.vcard.photoBase64 && cfg.vcard.photoBase64.trim().length > 100) {
-            const format = (cfg.vcard.photoFormat || 'JPEG').toUpperCase();
-            return {
-                data: cfg.vcard.photoBase64.trim(),
-                type: format
-            };
-        }
-
-        // 2. Fallback: dynamically generate square avatar from the page logo
+        // Dynamically generate square avatar from the page logo
         try {
             const logo = document.getElementById('logo');
             if (logo && logo.complete && logo.naturalWidth > 0) {
