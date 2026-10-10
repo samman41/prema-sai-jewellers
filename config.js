@@ -28,9 +28,9 @@ Shop with confidence and trust us for quality, craftsmanship, and exceptional se
     // --- Contact Details ---
     contact: {
         phones: [
-            { number: "977-9745315889", label: "Work" },
+            { number: "977-9855028758", label: "Work" },
         ],
-        whatsapp: "977-9745315889",            // WhatsApp number (without +)
+        whatsapp: "977-9855028758",            // WhatsApp number (without +)
         email: "",
         locationUrl: "https://maps.app.goo.gl/FfqsjVgXDSGC7FkEA?g_st=ac",
         reviewUrl: "https://search.google.com/local/writereview?placeid=ChIJP6nPxUn7lDkR77zaMSkpLos",
