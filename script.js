@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const btnReview = document.getElementById('btn-review');
 
     if (btnCall) btnCall.href = `tel:${cfg.contact.phones[0].number}`;
-    if (btnWhatsapp) btnWhatsapp.href = `whatsapp://send?phone=${cfg.contact.whatsapp.replace(/[^0-9]/g, '')}`;
+    if (btnWhatsapp) btnWhatsapp.href = `https://wa.me/${cfg.contact.whatsapp.replace(/[^0-9]/g, '')}`;
     if (btnEmail) btnEmail.href = `mailto:${cfg.contact.email}`;
     if (btnLocation) btnLocation.href = cfg.contact.locationUrl;
     if (btnReview) btnReview.href = cfg.contact.reviewUrl;
@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
             vcardLines.push(
                 `EMAIL;TYPE=PREF,INTERNET:${cfg.contact.email}`,
                 `URL;type=Location:${cfg.contact.locationUrl}`,
-                `URL;type=WhatsApp:whatsapp://send?phone=${cfg.contact.whatsapp.replace(/[^0-9]/g, '')}`,
+                `URL;type=WhatsApp:https://wa.me/${cfg.contact.whatsapp.replace(/[^0-9]/g, '')}`,
                 `X-WHATSAPP:+${cfg.contact.whatsapp.replace(/[^0-9]/g, '')}`,
                 `IMPP;wa:whatsapp:+${cfg.contact.whatsapp.replace(/[^0-9]/g, '')}`
             );
