@@ -197,7 +197,9 @@ document.addEventListener('DOMContentLoaded', () => {
             vcardLines.push(
                 `EMAIL;TYPE=PREF,INTERNET:${cfg.contact.email}`,
                 `URL;type=Location:${cfg.contact.locationUrl}`,
-                `URL;type=WhatsApp:whatsapp://send?phone=${cfg.contact.whatsapp.replace(/[^0-9]/g, '')}`
+                `URL;type=WhatsApp:whatsapp://send?phone=${cfg.contact.whatsapp.replace(/[^0-9]/g, '')}`,
+                `X-WHATSAPP:+${cfg.contact.whatsapp.replace(/[^0-9]/g, '')}`,
+                `IMPP;wa:whatsapp:+${cfg.contact.whatsapp.replace(/[^0-9]/g, '')}`
             );
 
             if (socialUrlLines) vcardLines.push(socialUrlLines);
