@@ -44,7 +44,7 @@ html {
     background-repeat: no-repeat;
     z-index: 0;
     transform: scale(1.05);
-    filter: blur(2px) brightness(0.85);
+    filter: blur(2px) brightness(0.5);
     pointer-events: none;
     /* Slight scale to allow soft parallax if needed */
 }
@@ -57,8 +57,8 @@ html {
     height: 100vh;
     /* Smooth, premium dark gradient for readability */
     background: linear-gradient(180deg,
-            rgba(0, 0, 0, 0.55) 0%,
-            rgba(0, 0, 0, 0.75) 100%);
+            rgba(0, 0, 0, 0.35) 0%,
+            rgba(0, 0, 0, 0.50) 100%);
     z-index: 1;
     pointer-events: none;
     backdrop-filter: blur(2px);
