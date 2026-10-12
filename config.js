@@ -29,6 +29,7 @@ Shop with confidence and trust us for quality, craftsmanship, and exceptional se
     contact: {
         phones: [
             { number: "+977-9855028758", label: "Work" },
+            { number: "056-598364", label: "Secondary" },
         ],
         whatsapp: "+977-9855028758",            // WhatsApp number (without +)
         email: "",
